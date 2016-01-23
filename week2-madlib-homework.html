@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mad Libs!</title>
+</head> 
+<body class="page" id="top"> 
+	<header>
+		<h1>Mad Libs!</h1> 
+	</header>
+	<div id="primaryContent">
+		<h2 >Fun With Mad Libs Sentences</h2>
+        <form id="formMadLibs" method="post" action="#">
+            <h3 id="replace">Mad Libs - change this sentence:</h3>
+            <p id="OriginalSentence">
+                "My fellow Americans, ask not what your country can do for you -- ask what you can do for your country."
+            </p>
+            <br />
+            <fieldset>
+                <label>Change the word "Americans" to something else!</label>
+                <select id="Citizens" name="Citizens" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Russians">Russians</option>
+                    <option value="Cubans">Cubans</option>
+                    <option value="NorthKoreans">North Koreans</option>
+                    <option value="Iraqis">Iraqis</option>
+                </select>
+                <br />
+                <label>Change the word "country" to something else!</label>
+                <select id="Country" name="Country" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="nation">nation</option>
+                    <option value="world">world</option>
+                    <option value="city">city</option>
+                    <option value="people">people</option>
+                    <option value="aliens">aliens</option>
+                </select>
+                <br />
+                <label>Change the word "fellow" to something else!</label>
+                <select id="Fellow" name="Fellow" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="hardworking">hardworking</option>
+                    <option value="fat">fat</option>
+                    <option value="brainwashed">brainwashed</option>
+                    <option value="ugly">ugly</option>
+                    <option value="hungry">hungry</option>
+                </select>
+                <br />
+                <label>Change the word "do" to something else!</label>
+                <select id="ActionVerb" name="ActionVerb" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="eat">eat</option>
+                    <option value="think">think</option>
+                    <option value="decide">decide</option>
+                    <option value="outsource">outsource</option>
+                    <option value="smoke">smoke</option>
+                </select>
+                <br />
+                <label>Change the word "you" to something else!</label>
+                <select id="You" name="You" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="mother">mother</option>
+                    <option value="aliens">aliens</option>
+                    <option value="jarjar">jarjar</option>
+                    <option value="cheeseburger">cheeseburger</option>
+                    <option value="spam">spam</option>
+                </select>
+                <br />
+                <label>Change the word "ask" to something else!</label>
+                <select id="Ask" name="Ask" type="text" required>
+                    <option value="choose" disabled >Choose a word:</option>
+                    <option value="tell">tell</option>
+                    <option value="think">think</option>
+                    <option value="wonder">wonder</option>
+                    <option value="waste">waste</option>
+                    <option value="hunt">hunt</option>
+                </select>
+                <br /><br />
+                <input type="button" name="submit" value="Submit!" onclick="ChangeSentence();" />
+                <br />
+            </fieldset>
+        </form>
+	</div> <!-- closing primaryContent   -->
+	<footer>
+		<p>
+		&copy; Copyright  by jeremy ward
+		</p>
+	</footer>
+    <script type="text/javascript" src="javascript/test.js"></script>	
+</body>
+</html>
