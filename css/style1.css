@@ -94,3 +94,7 @@ button{ margin:5px 5px 5px 30px;}
 textarea:required:invalid, input:required:invalid {
 background-color: lightyellow;
 }
+
+#OriginalSentence {
+    display:none;
+}
